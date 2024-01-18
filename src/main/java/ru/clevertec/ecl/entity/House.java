@@ -1,6 +1,5 @@
 package ru.clevertec.ecl.entity;
 
-import com.fasterxml.jackson.annotation.JsonFormat;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -11,23 +10,17 @@ import jakarta.persistence.JoinTable;
 import jakarta.persistence.ManyToMany;
 import jakarta.persistence.OneToMany;
 import jakarta.persistence.Table;
-import lombok.Builder;
 import lombok.Data;
-import org.springframework.format.annotation.DateTimeFormat;
-import org.springframework.stereotype.Component;
+import lombok.EqualsAndHashCode;
 
-
-import java.text.SimpleDateFormat;
-import java.time.LocalDate;
 import java.time.LocalDateTime;
-import java.util.Date;
-import java.util.HashSet;
 import java.util.Set;
 import java.util.UUID;
 
 @Data
 @Entity
 @Table(name = "house")
+@EqualsAndHashCode(exclude = {"residents","owners"})
 public class House {
 
     @Id

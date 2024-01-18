@@ -16,17 +16,17 @@ import jakarta.persistence.ManyToOne;
 import jakarta.persistence.Table;
 import jakarta.persistence.Transient;
 import lombok.Data;
-
+import lombok.EqualsAndHashCode;
 
 import java.time.LocalDateTime;
 import java.util.Set;
 import java.util.UUID;
 
 
-
 @Data
 @Entity
 @Table(name = "person")
+@EqualsAndHashCode(exclude = {"house", "ownedHouses"})
 public class Person {
 
     @Id

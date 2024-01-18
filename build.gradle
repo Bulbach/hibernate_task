@@ -25,12 +25,13 @@ dependencies {
     implementation "org.springframework:spring-orm:${springVersion}"
     implementation "org.springframework:spring-webmvc:${springVersion}"
     implementation "org.springframework:spring-tx:${springVersion}"
+    implementation "org.springframework:spring-test:${springVersion}"
 
     implementation 'org.hibernate:hibernate-core:6.0.1.Final'
     implementation 'org.yaml:snakeyaml:2.2'
     implementation 'org.liquibase:liquibase-core:4.25.1'
     implementation 'org.liquibase:liquibase-groovy-dsl:3.0.3'
-
+    implementation 'com.h2database:h2:1.4.200'
     implementation 'org.codehaus.groovy:groovy-all:3.0.20'
 
     implementation "com.fasterxml.jackson.core:jackson-databind:${jacksonVersion}"
