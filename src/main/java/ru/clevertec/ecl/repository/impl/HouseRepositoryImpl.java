@@ -17,7 +17,6 @@ import java.util.UUID;
 
 @Slf4j
 @Repository
-
 public class HouseRepositoryImpl implements GenericRepository<House, UUID> {
     @Autowired
     private SessionFactory sessionFactory;

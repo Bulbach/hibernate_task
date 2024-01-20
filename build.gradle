@@ -15,6 +15,7 @@ ext {
     junitVersion = '5.9.2'
     mockitoVersion = '5.6.0'
     jacksonVersion = '2.16.1'
+    testcontainers = '1.19.3'
 }
 
 dependencies {
@@ -25,13 +26,15 @@ dependencies {
     implementation "org.springframework:spring-orm:${springVersion}"
     implementation "org.springframework:spring-webmvc:${springVersion}"
     implementation "org.springframework:spring-tx:${springVersion}"
+    implementation "org.springframework:spring-test:${springVersion}"
 
     implementation 'org.hibernate:hibernate-core:6.0.1.Final'
     implementation 'org.yaml:snakeyaml:2.2'
     implementation 'org.liquibase:liquibase-core:4.25.1'
     implementation 'org.liquibase:liquibase-groovy-dsl:3.0.3'
-
+    implementation 'com.h2database:h2:1.4.200'
     implementation 'org.codehaus.groovy:groovy-all:3.0.20'
+    implementation 'org.hibernate.validator:hibernate-validator:7.0.2.Final'
 
     implementation "com.fasterxml.jackson.core:jackson-databind:${jacksonVersion}"
     implementation "com.fasterxml.jackson.datatype:jackson-datatype-jsr310:${jacksonVersion}"
@@ -43,6 +46,10 @@ dependencies {
     implementation 'com.zaxxer:HikariCP:5.0.1'
     implementation 'com.google.code.gson:gson:2.10.1'
     implementation 'org.slf4j:slf4j-simple:2.0.10'
+
+    testImplementation "org.testcontainers:testcontainers:${testcontainers}"
+    testImplementation "org.testcontainers:junit-jupiter:${testcontainers}"
+    testImplementation "org.testcontainers:postgresql:${testcontainers}"
 
     testImplementation("com.fasterxml.jackson.core:jackson-databind:${jacksonVersion}")
     testImplementation("com.fasterxml.jackson.datatype:jackson-datatype-jsr310:${jacksonVersion}")

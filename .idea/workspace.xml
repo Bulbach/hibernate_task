@@ -4,60 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cb5c0379-0ccb-414a-a3ce-de7fefd59945" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/clevertec/ecl/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/clevertec/ecl/configuration/AppConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/clevertec/ecl/configuration/HibernateConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/clevertec/ecl/configuration/InitializerApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/clevertec/ecl/configuration/WebMvcConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/clevertec/ecl/controller/HouseController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/clevertec/ecl/controller/PersonController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/clevertec/ecl/dto/requestDto/RequestDtoHouse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/clevertec/ecl/dto/requestDto/RequestDtoPerson.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/clevertec/ecl/dto/responseDto/ResponseDtoHouse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/clevertec/ecl/dto/responseDto/ResponseDtoPerson.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/clevertec/ecl/entity/House.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/clevertec/ecl/entity/Passport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/clevertec/ecl/entity/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/clevertec/ecl/exception/ControllerExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/clevertec/ecl/exception/ErrorMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/clevertec/ecl/exception/HouseNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/clevertec/ecl/exception/PersonNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/clevertec/ecl/mapper/HouseMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/clevertec/ecl/mapper/PersonMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/clevertec/ecl/mapper/resultSet/HouseResultSetMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/clevertec/ecl/mapper/resultSet/PersonResultSetMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/clevertec/ecl/repository/GenericRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/clevertec/ecl/repository/impl/HouseRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/clevertec/ecl/repository/impl/PersonRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/clevertec/ecl/service/service/impl/HouseService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/clevertec/ecl/service/service/impl/PersonService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/changelog.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/db/DDL_hibernate.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/db/DML_hibernate.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/db/v0.0/changelog-v0.0-cumulative.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/db/v0.0/ddl/2024-01-14--01-create-table.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/db/v0.0/ddl/2024-01-16--01-create-table.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/db/v0.0/dml/2024-01-14--01-fill-table.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/db/v0.0/dml/2024-01-16--01-fill-table.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/logback-spring.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/clevertec/ecl/repository/impl/HouseRepositoryImplTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/clevertec/ecl/service/service/impl/HouseServiceTest.java" afterDir="false" />
+    <list default="true" id="cb5c0379-0ccb-414a-a3ce-de7fefd59945" name="Changes" comment="feature/hibernate-task-test">
+      <change afterPath="$PROJECT_DIR$/src/test/resources/application-test.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/clevertec/ecl/configuration/TestDatabaseConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/clevertec/ecl/configuration/TestDatabaseConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/clevertec/ecl/entity/House.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/clevertec/ecl/entity/House.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/clevertec/ecl/entity/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/clevertec/ecl/entity/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/clevertec/ecl/repository/impl/HouseRepositoryImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/clevertec/ecl/repository/impl/HouseRepositoryImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/clevertec/ecl/service/service/impl/PersonServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/clevertec/ecl/service/service/impl/PersonServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,11 +101,19 @@
   "keyToString": {
     "Gradle.Build hibernate_task.executor": "Run",
     "Gradle.Download Sources.executor": "Run",
+    "Gradle.HouseRepositoryImplTest.executor": "Run",
+    "Gradle.HouseRepositoryImplTest.testDelete.executor": "Run",
     "Gradle.HouseServiceTest.delete.executor": "Run",
     "Gradle.HouseServiceTest.getAll.executor": "Run",
     "Gradle.HouseServiceTest.getById.executor": "Run",
     "Gradle.HouseServiceTest.getResidents.executor": "Run",
     "Gradle.HouseServiceTest.update.executor": "Run",
+    "Gradle.PersonServiceTest.create.executor": "Run",
+    "Gradle.PersonServiceTest.delete.executor": "Run",
+    "Gradle.PersonServiceTest.getAllPersons.executor": "Run",
+    "Gradle.PersonServiceTest.getById.executor": "Run",
+    "Gradle.PersonServiceTest.getOwnedHouses.executor": "Run",
+    "Gradle.PersonServiceTest.update.executor": "Run",
     "Gradle.hibernate_task [:Main.main()].executor": "Run",
     "Gradle.hibernate_task [assemble].executor": "Run",
     "Gradle.hibernate_task [buildDependents].executor": "Run",
@@ -166,17 +131,18 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Smart Tomcat.hiber.executor": "Debug",
+    "Smart Tomcat.hiber.executor": "Run",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers": "true",
-    "git-widget-placeholder": "feature/hibernate",
+    "git-widget-placeholder": "feature/hibernate__task__remarks",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/ClevertecCourses/Hibernate_task/hibernate_task/hibernate_task/src/main/java/ru/clevertec/ecl/service",
-    "project.structure.last.edited": "Problems",
+    "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -187,6 +153,7 @@
       <recent name="D:\ClevertecCourses\Hibernate_task\hibernate_task\hibernate_task\src\main\resources\db" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\ClevertecCourses\Hibernate_task\hibernate_task\hibernate_task\src\test\resources" />
       <recent name="D:\ClevertecCourses\Hibernate_task\hibernate_task\hibernate_task\src\main\resources\db\v0.0\ddl" />
       <recent name="D:\ClevertecCourses\Hibernate_task\hibernate_task\hibernate_task\src\main\resources" />
     </key>
@@ -194,8 +161,8 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="ru.clevertec.ecl.repository.impl" />
       <recent name="ru.clevertec.ecl.service.service.impl" />
+      <recent name="ru.clevertec.ecl.repository.impl" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="ru.clevertec.ecl.exception" />
@@ -203,8 +170,8 @@
       <recent name="ru.clevertec.ecl.repository" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.HouseServiceTest.update">
-    <configuration name="HouseServiceTest.delete" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.hibernate_task [build]">
+    <configuration name="HouseRepositoryImplTest.testDelete" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -217,7 +184,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;ru.clevertec.ecl.service.service.impl.HouseServiceTest.delete&quot;" />
+            <option value="&quot;ru.clevertec.ecl.repository.impl.HouseRepositoryImplTest.testDelete&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -228,100 +195,92 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="HouseServiceTest.getAll" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="hibernate_task [assemble]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
+        <option name="scriptParameters" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;ru.clevertec.ecl.service.service.impl.HouseServiceTest.getAll&quot;" />
+            <option value="assemble" />
           </list>
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
+      <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="HouseServiceTest.getById" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="hibernate_task [buildDependents]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
+        <option name="scriptParameters" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;ru.clevertec.ecl.service.service.impl.HouseServiceTest.getById&quot;" />
+            <option value="buildDependents" />
           </list>
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
+      <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="HouseServiceTest.getResidents" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="hibernate_task [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
+        <option name="scriptParameters" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;ru.clevertec.ecl.service.service.impl.HouseServiceTest.getResidents&quot;" />
+            <option value="build" />
           </list>
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
+      <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="HouseServiceTest.update" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="hibernate_task [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
+        <option name="scriptParameters" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;ru.clevertec.ecl.service.service.impl.HouseServiceTest.update&quot;" />
+            <option value="clean" />
           </list>
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
+      <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
     <configuration name="hiber" type="com.poratu.idea.plugins.tomcat" show_console_on_std_err="true" show_console_on_std_out="true">
@@ -333,9 +292,6 @@
       <option name="catalinaBase" value="C:\Users\zvero\.SmartTomcat\hibernate_task\hibernate_task.main" />
       <option name="contextPath" value="/" />
       <option name="docBase" value="D:\ClevertecCourses\Hibernate_task\hibernate_task\hibernate_task\src\main\webapp" />
-      <option name="envOptions">
-        <map />
-      </option>
       <option name="extraClassPath" value="" />
       <option name="tomcatInfo">
         <TomcatInfo>
@@ -352,27 +308,27 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Gradle.HouseServiceTest.delete" />
-      <item itemvalue="Gradle.HouseServiceTest.getAll" />
-      <item itemvalue="Gradle.HouseServiceTest.getById" />
-      <item itemvalue="Gradle.HouseServiceTest.getResidents" />
-      <item itemvalue="Gradle.HouseServiceTest.update" />
+      <item itemvalue="Gradle.HouseRepositoryImplTest.testDelete" />
+      <item itemvalue="Gradle.hibernate_task [assemble]" />
+      <item itemvalue="Gradle.hibernate_task [buildDependents]" />
+      <item itemvalue="Gradle.hibernate_task [build]" />
+      <item itemvalue="Gradle.hibernate_task [clean]" />
       <item itemvalue="Smart Tomcat.hiber" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.HouseServiceTest.update" />
-        <item itemvalue="Gradle.HouseServiceTest.delete" />
-        <item itemvalue="Gradle.HouseServiceTest.getResidents" />
-        <item itemvalue="Gradle.HouseServiceTest.getById" />
-        <item itemvalue="Gradle.HouseServiceTest.getAll" />
+        <item itemvalue="Gradle.hibernate_task [build]" />
+        <item itemvalue="Gradle.hibernate_task [clean]" />
+        <item itemvalue="Gradle.HouseRepositoryImplTest.testDelete" />
+        <item itemvalue="Gradle.hibernate_task [buildDependents]" />
+        <item itemvalue="Gradle.hibernate_task [assemble]" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="jdk-17.0.9-corretto-17.0.9-4caba194b151-107bc6b7" />
+        <option value="jdk-17.0.10-corretto-17.0.10-4caba194b151-5cd809f4" />
       </set>
     </attachedChunks>
   </component>
@@ -385,6 +341,39 @@
       <option name="presentableId" value="Default" />
       <updated>1704744898412</updated>
     </task>
+    <task id="LOCAL-00001" summary="Задание по Hibernate">
+      <option name="closed" value="true" />
+      <created>1705384669951</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1705384669951</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Задание по Hibernate">
+      <option name="closed" value="true" />
+      <created>1705384751349</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1705384751349</updated>
+    </task>
+    <task id="LOCAL-00003" summary="feature/hibernate-task-test">
+      <option name="closed" value="true" />
+      <created>1705574344729</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1705574344730</updated>
+    </task>
+    <task id="LOCAL-00004" summary="feature/hibernate-task-test">
+      <option name="closed" value="true" />
+      <created>1705674322633</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1705674322633</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -398,15 +387,9 @@
       </map>
     </option>
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ru/clevertec/ecl/service/service/impl/PersonService.java</url>
-          <line>42</line>
-          <option name="timeStamp" value="31" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Задание по Hibernate" />
+    <MESSAGE value="feature/hibernate-task-test" />
+    <option name="LAST_COMMIT_MESSAGE" value="feature/hibernate-task-test" />
   </component>
 </project>
